@@ -1,0 +1,39 @@
+.AppContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.FocusEntryContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid black;
+  padding: 4px;
+  gap: 2px;
+}
+
+.FocusEntryChunkText {
+  padding: 8px;
+  font-weight: bold;
+}
+
+.FocusEntryTimer {
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 6rem;
+}
+
+.FocusEntryText {
+  width: 20rem;
+  min-height: 2rem;
+}
+
+.AddEntryButton {
+  font-size: 4rem;
+  line-height: 2rem;
+  width: 5rem;
+}
