@@ -1,10 +1,32 @@
 .AppContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100vw;
+  gap: 4px;
+}
+
+.GendlinFocusingContainer {
   display: flex;
   flex-direction: column;
-  width: 100vw;
-  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.EphemeralRamblingContainer {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 4px;
+}
+
+.EphemeralRamblingTextArea {
+  width: 90%;
+  min-height: 50rem;
+}
+
+.FocusEntries {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .FocusEntryContainer {
